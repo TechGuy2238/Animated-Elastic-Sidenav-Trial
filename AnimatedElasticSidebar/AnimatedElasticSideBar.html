@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AESB</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>	
+</head>
+<body>
+	<header class="header">
+		<nav class="nav">
+			<section class="nav_icon">
+				<span class="tbar"></span>
+				<span class="mbar"></span>
+				<span class="bbar"></span>
+			</section>
+			
+			<ul class="nav_ul">
+				<li><a href="">HOME</a></li>
+				<li><a href="">ABOUT</a></li>
+				<li><a href="">TEAM</a></li>
+				<li><a href="">CLIENT</a></li>
+				<li><a href="">FAQ</a></li>
+			</ul>
+			
+		</nav>
+	</header>
+	
+	<script>
+		$(function() {
+			$(".nav_icon").click(function() {
+				$(".nav").toggleClass('nav-open');
+			
+			});
+		
+		});
+	
+	</script>
+
+</body>
+</html>
